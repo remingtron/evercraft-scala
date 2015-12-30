@@ -1,0 +1,14 @@
+[0m[[0minfo[0m] [0m[32mHeroTests:[0m[0m
+[0m[[0minfo[0m] [0m[32mevercraft.Hero[0m[0m
+[0m[[0minfo[0m] [0m[32m- has a name[0m[0m
+[0m[[0minfo[0m] [0m[32m- has an alignment[0m[0m
+[0m[[0minfo[0m] [0m[32m- has a default alignment of Neutral[0m[0m
+[0m[[0minfo[0m] [0m[32m- can have a good alignment[0m[0m
+[0m[[0minfo[0m] [0m[32m- has a default armor class of 10[0m[0m
+[0m[[0minfo[0m] [0m[32m- has default hitpoints of 5[0m[0m
+[0m[[0minfo[0m] [0m[32m- is dead when hit points is 0[0m[0m
+[0m[[0minfo[0m] [0m[32m- is alive when hit points is greater than 0[0m[0m
+[0m[[0minfo[0m] [0m[32m- has 10 strength by default[0m[0m
+[0m[[0minfo[0m] [0m[32m- also has 10 dexterity, constitution, wisdom, intelligence and charisma[0m[0m
+[0m[[0minfo[0m] [0m[32m- has default attack power of one[0m[0m
+[0m[[0minfo[0m] [0m[32m- has modified attack power based on strength[0m[0m

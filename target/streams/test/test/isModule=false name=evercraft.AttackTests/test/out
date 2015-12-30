@@ -1,0 +1,6 @@
+[0m[[0minfo[0m] [0m[32mAttackTests:[0m[0m
+[0m[[0minfo[0m] [0m[32mevercraft.Attack[0m[0m
+[0m[[0minfo[0m] [0m[32m- removes one damage when attack roll is greater than armor[0m[0m
+[0m[[0minfo[0m] [0m[32m- does not remove damage when attack roll is less than armor[0m[0m
+[0m[[0minfo[0m] [0m[32m- removes one damage when attack roll is same as armor[0m[0m
+[0m[[0minfo[0m] [0m[32m- doubles damage when roll is 20[0m[0m

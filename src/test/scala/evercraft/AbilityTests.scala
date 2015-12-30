@@ -1,0 +1,21 @@
+package evercraft
+
+import org.scalatest.{path, Matchers}
+
+class AbilityTests extends path.FunSpec with Matchers {
+
+  describe("Ability") {
+
+    it("should return the correct modifier for all scores") {
+      val expectedValues = Map(1 -> -5, 2 -> -4, 3 -> -4, 4 -> -3, 5 -> -3,
+      6 -> -2, 7 -> -2, 8 -> -1, 9 -> -1, 10 -> 0, 11 -> 0, 12 -> 1, 13 -> 1,
+      14 -> 2, 15 -> 2, 16 -> 3, 17 -> 3, 18 -> 4, 19 -> 4, 20 -> 5)
+
+      expectedValues.foreach { case (score, expectedModifier) =>
+        val ability = new Ability(score)
+        ability.modifier shouldBe expectedModifier
+      }
+    }
+
+  }
+}
